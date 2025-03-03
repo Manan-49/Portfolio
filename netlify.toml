@@ -1,0 +1,11 @@
+[build]
+  publish = "public"
+
+[functions]
+  directory = "functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/contact"
+  to = "/.netlify/functions/contact"
+  status = 200
